@@ -86,6 +86,11 @@ The MQTT board (`mqttESP`) acts as the bridge between Home Assistant and the LoR
 
 ## Setup Instructions
 
+**IMPORTANT**:  
+LoRa communicates via radio frequencies (433-870 MHz). For this project, I used 433 MHz (notated as `433E6`, where "E6" expresses the frequency in MHz) because it's the legal frequency in my country. You can check the legal LoRa frequencies by country [here](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/).
+
+To use this project in your country, replace the `433E6` value in `lora.ino` (on both boards) with your country’s allowed frequency. Make sure the frequency used for communication matches on both boards.
+
 1. **Clone or download** this repository and open it in the Arduino IDE.
 2. **Configure header files** in the `mqttESP` and `releESP` directories to suit your setup.
    - For `mqttESP`: Set up MQTT server details and topic names for communication with Home Assistant.
