@@ -102,24 +102,6 @@ The MQTT board (`mqttESP`) acts as the bridge between Home Assistant and the LoR
 - Optimize LoRa transmission settings for better range or reliability as needed.
 
 
-### Communication schema
-![schema_v2 drawio](https://github.com/user-attachments/assets/4ba15109-57bc-4f7f-90d3-6e03bf4c38f8)
-
-
-
-
-### Relay Board Configuration (releESP)
-![ESP32Wroom32](https://github.com/user-attachments/assets/8f2df546-56ef-4fdc-b85d-5578c653a28d)
-
-
-
-
-### MQTT Board Configuration (mqttESP)
-![ESP32AzDelivery](https://github.com/user-attachments/assets/5ccb5b86-fdc9-4d5d-86a9-5a70ffdb9e7b)
-
-Pin connection:
-
-
 
 # How To Use
 Configure the header file of mqttESP and releESP folder
